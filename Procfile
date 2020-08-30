@@ -1,1 +1,1 @@
-web: gunicorn momoka-flask:app --log-file=-
+web: gunicorn momoka-flask:app --log-file -
